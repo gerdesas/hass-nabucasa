@@ -14,7 +14,7 @@ if TYPE_CHECKING:
 MAX_PENDING = 100
 
 ERR_DISCARD_CODE = "message_discarded"
-ERR_DISCARD_MSG = "Message discarded because max messages reachced"
+ERR_DISCARD_MSG = "Message discarded because max messages reached"
 
 
 class ErrorResponse(Exception):
